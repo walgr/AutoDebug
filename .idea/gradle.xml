@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/DexFix" />
+            <option value="$PROJECT_DIR$/PatchTask" />
+            <option value="$PROJECT_DIR$/PatchTool" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/autodebug" />
+            <option value="$PROJECT_DIR$/fileserver" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

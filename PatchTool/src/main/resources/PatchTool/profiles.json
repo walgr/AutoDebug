@@ -1,0 +1,14 @@
+{
+  "AesKey": "",
+  "ClassFilterFilePath": "",
+  "KeyAlias": "",
+  "KeyPassword": "",
+  "KeyStorePassword": "",
+  "KeyStorePath": "",
+  "NewApkPath": "",
+  "OldApkPath": "",
+  "OutputDirPath": "",
+  "isForceColdFix": false,
+  "isIgnoreRes": false,
+  "isIgnoreSo": false
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application>
+        <service android:name="com.wpf.autodebug.hitfix.AutoDebugService"/>
+        <service
+            android:name="com.taobao.sophix.aidl.DownloadService"
+            android:exported="true">
+
+            <intent-filter>
+
+                <action
+                    android:name="com.taobao.hotfix.action" />
+
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>
